@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255, 255, 255;
+    --foreground: 15, 23, 42;
+    --muted: 241, 245, 249;
+    --muted-foreground: 100, 116, 139;
+  }
+
+  .dark {
+    --background: 15, 23, 42;
+    --foreground: 248, 250, 252;
+    --muted: 30, 41, 59;
+    --muted-foreground: 148, 163, 184;
+  }
+}
+
+@layer base {
+  * {
+    @apply transition-colors duration-300;
+  }
+
+  body {
+    @apply font-sans bg-background text-foreground min-h-screen;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-space-grotesk text-foreground;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative font-medium text-foreground/70 hover:text-foreground px-3 py-2 transition-colors duration-200;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute left-0 bottom-0 w-0 h-0.5 bg-indigo-500 dark:bg-indigo-400 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .nav-link.active {
+    @apply text-indigo-600 dark:text-indigo-400;
+  }
+
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .section-title {
+    @apply text-2xl sm:text-3xl font-bold text-foreground mb-6;
+  }
+
+  .card {
+    @apply bg-muted/50 rounded-lg p-6 transition-all duration-300;
+  }
+
+  .card-title {
+    @apply text-xl font-bold text-foreground mb-2;
+  }
+
+  .card-text {
+    @apply text-foreground/80;
+  }
+}
+
+.particles-wrapper {
+  @apply fixed inset-0 -z-10;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
