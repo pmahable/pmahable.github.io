@@ -23,7 +23,7 @@ interface ResearchProject {
 const projects: ResearchProject[] = [
   {
     title: 'Multi-Modal Contrastive Learning',
-    description: 'Developing a novel multi-modal contrastive learning framework for integrating diverse biological data types. This approach combines sequence, structure, and interaction data to improve protein function prediction and understanding of cellular mechanisms.',
+    description: 'Developing a novel multi-modal contrastive learning framework for integrating health data in the MIMIC-IV dataset.',
     lab: 'Singh Lab at Brown University',
     date: '2025',
     technologies: ['PyTorch', 'Transformers', 'Python', 'Deep Learning'],
@@ -31,16 +31,16 @@ const projects: ResearchProject[] = [
   },
   {
     title: 'MMC AlphaFold Adaptation',
-    description: 'Adapting the MMC framework to enhance AlphaFold predictions by incorporating multi-modal biological data. This project aims to improve protein structure prediction accuracy by leveraging diverse data sources and advanced deep learning techniques.',
-    lab: 'Singh Lab at Brown University',
+    description: 'Adapting the MMC framework to enhance AlphaFold predictions by incorporating physical information. This project aims to improve protein structure prediction accuracy by efficiently utilizing free energy calculations and changes in AlphaFold iterations.',
+    lab: 'with Colin Baker and Sorin Istrail',
     date: '2025',
-    technologies: ['PyTorch', 'AlphaFold', 'Python', 'Structural Biology'],
+    technologies: ['PyTorch', 'AlphaFold', 'OpenMM'],
     imageUrl: '/research/alphafold.png'
   },
   {
     title: 'BindCompare',
     description: 'BindCompare is a novel integrated protein–nucleic acid binding analysis platform. It is a user-friendly tool that can be run locally to predict new combinatorial relationships between TFs and RBPs.',
-    lab: 'Singh Lab at Brown University',
+    lab: 'Larschan Lab at Brown University',
     date: '2024',
     publication: {
       title: 'Read the Paper!',
@@ -52,14 +52,14 @@ const projects: ResearchProject[] = [
   {
     title: 'DNABERT-Enhancer',
     description: 'Developed a transformer-based model for enhancer prediction by fine-tuning DNABERT on enhancer sequences. Implemented novel attention visualization techniques to improve model interpretability and biological insight.',
-    lab: 'Singh Lab at Brown University',
+    lab: 'Ovcharenko Group at the NLM (NIH)',
     date: '2023',
     technologies: ['DNABERT', 'PyTorch', 'Python', 'Genomics'],
     imageUrl: '/research/dnabert.png'
   },
   {
     title: 'Wet Lab Research',
-    description: 'Led multiple projects investigating genome-wide sex-specific splicing during early Drosophila embryogenesis and the role of dual DNA/RNA-binding factors in regulating hnRNP splicing condensates. Combined wet lab experiments with computational analysis to reveal novel insights into developmental biology and splicing regulation.',
+    description: 'Collaborated on multiple projects investigating genome-wide sex-specific splicing during early Drosophila embryogenesis and the role of dual DNA/RNA-binding factors in regulating hnRNP splicing condensates. Combined wet lab experiments with computational analysis to reveal insights into developmental biology and splicing regulation.',
     lab: 'Larschan Lab at Brown University',
     date: '2022 - 2023',
     publications: [
