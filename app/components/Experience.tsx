@@ -1,9 +1,8 @@
 'use client';
-import React, { JSX } from 'react';
+import React, { JSX } from 'react'; // useRef was deleted here.
 import { motion } from 'framer-motion';
 import { MdWork } from 'react-icons/md';
 import { FaFlask, FaChalkboardTeacher } from 'react-icons/fa';
-import { useRef } from 'react';
 import Link from 'next/link';
 
 interface Position {
@@ -191,7 +190,7 @@ const ExperienceCard = ({ experience, index }: { experience: ExperienceItem; ind
   );
 };
 
-const ExperienceSection = ({ title, experiences, icon: Icon }: { title: string; experiences: ExperienceItem[]; icon: any }) => {
+const ExperienceSection = ({ title, experiences, icon: Icon }: { title: string; experiences: ExperienceItem[]; icon: JSX.ElementType }) => {
   return (
     <div className="mb-16" id={title.toLowerCase().replace(/\s+/g, '-')}>
       <motion.div 
@@ -213,7 +212,7 @@ const ExperienceSection = ({ title, experiences, icon: Icon }: { title: string; 
   );
 };
 
-const NavButton = ({ title, icon: Icon, onClick }: { title: string; icon: any; onClick: () => void }) => (
+const NavButton = ({ title, icon: Icon, onClick }: { title: string; icon: JSX.ElementType; onClick: () => void }) => (
   <motion.button
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
@@ -226,9 +225,9 @@ const NavButton = ({ title, icon: Icon, onClick }: { title: string; icon: any; o
 );
 
 export default function Experience() {
-  const workRef = useRef<HTMLDivElement>(null);
-  const researchRef = useRef<HTMLDivElement>(null);
-  const teachingRef = useRef<HTMLDivElement>(null);
+  // const workRef = useRef<HTMLDivElement>(null);
+  // const researchRef = useRef<HTMLDivElement>(null);
+  // const teachingRef = useRef<HTMLDivElement>(null);
 
   const workExperiences = experiences.filter(exp => exp.category === 'work');
   const researchExperiences = experiences.filter(exp => exp.category === 'research');

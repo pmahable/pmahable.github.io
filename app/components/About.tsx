@@ -3,8 +3,13 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
-const SocialLink = ({ href, icon, label }: { href: string; icon: any; label: string }) => (
+const SocialLink = ({ href, icon, label }: { 
+  href: string; 
+  icon: IconDefinition; 
+  label: string 
+}) => (
   <motion.a
     href={href}
     target="_blank"
@@ -14,7 +19,7 @@ const SocialLink = ({ href, icon, label }: { href: string; icon: any; label: str
     whileTap={{ scale: 0.95 }}
   >
     <FontAwesomeIcon icon={icon} className="w-6 h-6" />
-    <span>{label}</span>
+    <span className="sr-only">{label}</span>
   </motion.a>
 );
 
@@ -68,7 +73,7 @@ export default function About() {
           transition={{ delay: 0.3 }}
           className="max-w-4xl mx-auto space-y-8"
         >
-          <h3 className="text-2xl font-bold text-foreground">Pranav's Pantry!</h3>
+          <h3 className="text-2xl font-bold text-foreground">Pranav&apos;s Pantry!</h3>
           
           <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
             <div className="relative aspect-square w-full overflow-hidden rounded-lg shadow-lg">

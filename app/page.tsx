@@ -1,5 +1,4 @@
 'use client';
-import { motion } from 'framer-motion';
 import ParticleBackground from './components/ParticleBackground';
 import Image from 'next/image';
 import Link from 'next/link';
