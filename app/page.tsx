@@ -97,7 +97,7 @@ export default function Home() {
           >
             <InfoTile 
               title="Research"
-              description="Exploring interpretable machine learning models for complex biological datasets and healthcare applications."
+              description="Exploring interpretable machine learning models for complex biological datasets and healthcare applications. Currently working with the MIMIC-IV dataset and protein folding models."
               link="/research"
               bgColor="bg-indigo-600/20"
             />
@@ -109,7 +109,7 @@ export default function Home() {
             />
             <InfoTile 
               title="About Me"
-              description="I am a current senior at Brown University! I love baking, swimming, and teaching in my free time."
+              description="I am a current senior at Brown University! I love baking, swimming, and teaching in my free time. Click here for my contact info!"
               link="/about"
               bgColor="bg-indigo-600/20"
             />

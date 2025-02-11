@@ -61,7 +61,27 @@ export default function About() {
         >
           <div className="prose prose-lg text-foreground/80">
             <p>
-            I&apos;m a Compute Science and Applied Mathematics student at Brown University. I enjoy the intersection of computer science, biology, chemistry, and math. Particularly, my research interests lie in developing interpretable methods geared towards complex biological/healthcare datasets. Outside of research, I am very passionate in teaching and making computer science more accessible!
+            I&apos;m a Computer Science and Applied Mathematics student at Brown University. I enjoy the intersection of computer science, biology, chemistry, and math. Particularly, my research interests lie in developing interpretable methods geared towards complex biological/healthcare datasets. Outside of research, I am very passionate in teaching and making computer science more accessible!
+            </p>
+            <br />
+            <p>
+              Feel free to reach out to me via email:{' '}
+              <a 
+                href="mailto:pranav_mahableshwarkar@brown.edu" 
+                className="text-blue-500 hover:text-blue-700 underline"
+                rel="noopener noreferrer"
+              >
+                pranav_mahableshwarkar@brown.edu
+              </a>{' '}
+              or{' '}
+              <a 
+                href="mailto:pranavm2780@gmail.com" 
+                className="text-blue-500 hover:text-blue-700 underline"
+                rel="noopener noreferrer"
+              >
+                pranavm2780@gmail.com
+              </a>
+              !
             </p>
           </div>
         </motion.div>

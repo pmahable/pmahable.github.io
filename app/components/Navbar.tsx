@@ -11,7 +11,6 @@ const navigation = [
   { name: 'Research', href: '/research' },
   { name: 'Experience', href: '/experience' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '/contact' },
 ];
 
 export default function Navbar() {
