@@ -22,16 +22,16 @@ interface ResearchProject {
 
 const projects: ResearchProject[] = [
   {
-    title: 'Multi-Modal Contrastive Learning',
-    description: 'Developing a novel multi-modal contrastive learning framework for integrating health data in the MIMIC-IV dataset.',
-    lab: 'Singh Lab at Brown University',
+    title: 'PiCME: Pipeline for Contrastive Modality Evaluation',
+    description: 'Developing a multi-modal contrastive learning framework for integrating health data in the MIMIC-IV dataset.',
+    lab: 'Singh Lab at Brown University with Michal Golovanevsky',
     date: '2025',
     technologies: ['PyTorch', 'Transformers', 'Python', 'Deep Learning'],
     imageUrl: '/research/multimodal.png'
   },
   {
-    title: 'MMC AlphaFold Adaptation',
-    description: 'Adapting the MMC framework to enhance AlphaFold predictions by incorporating physical information. This project aims to improve protein structure prediction accuracy by efficiently utilizing free energy calculations and changes in AlphaFold iterations.',
+    title: 'SRO: Subspace Relaxation Operator for Protein Structure Prediction',
+    description: 'Creating a trainable operator that uses solvent-specific forces to guide protein structure prediction towards favorable configurations.',
     lab: 'with Colin Baker and Sorin Istrail',
     date: '2025',
     technologies: ['PyTorch', 'AlphaFold', 'OpenMM'],
