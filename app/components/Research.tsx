@@ -23,8 +23,8 @@ interface ResearchProject {
 const projects: ResearchProject[] = [
   {
     title: 'PiCME: Pipeline for Contrastive Modality Evaluation',
-    description: 'Developing a multi-modal contrastive learning framework for integrating health data in the MIMIC-IV dataset.',
-    lab: 'Singh Lab at Brown University with Michal Golovanevsky',
+    description: 'Developing a multi-modal contrastive learning framework for integrating health data in the MIMIC-IV dataset. Collaboration with [Michal Golovanevsky](https://michalg04.github.io).',
+    lab: '[Singh Lab](https://rsinghlab.org) at Brown University',
     date: '2025',
     technologies: ['PyTorch', 'Transformers', 'Python', 'Deep Learning'],
     imageUrl: '/research/multimodal.png'
@@ -32,7 +32,7 @@ const projects: ResearchProject[] = [
   {
     title: 'SRO: Subspace Relaxation Operator for Protein Structure Prediction',
     description: 'Creating a trainable operator that uses solvent-specific forces to guide protein structure prediction towards favorable configurations.',
-    lab: 'with Colin Baker and Sorin Istrail',
+    lab: 'with [Colin Baker](cdbaker7.github.io) and [Sorin Istrail](https://istrail-lab.github.io)',
     date: '2025',
     technologies: ['PyTorch', 'AlphaFold', 'OpenMM'],
     imageUrl: '/research/alphafold.png'
@@ -40,7 +40,7 @@ const projects: ResearchProject[] = [
   {
     title: 'BindCompare',
     description: 'BindCompare is a novel integrated protein–nucleic acid binding analysis platform. It is a user-friendly tool that can be run locally to predict new combinatorial relationships between TFs and RBPs.',
-    lab: 'Larschan Lab at Brown University',
+    lab: '[Larschan Lab](https://larschanlab.com) at Brown University',
     date: '2024',
     publication: {
       title: 'Read the Paper!',
@@ -60,7 +60,7 @@ const projects: ResearchProject[] = [
   {
     title: 'Wet Lab Research',
     description: 'Collaborated on multiple projects investigating genome-wide sex-specific splicing during early Drosophila embryogenesis and the role of dual DNA/RNA-binding factors in regulating hnRNP splicing condensates. Combined wet lab experiments with computational analysis to reveal insights into developmental biology and splicing regulation.',
-    lab: 'Larschan Lab at Brown University',
+    lab: '[Larschan Lab](https://larschanlab.com) at Brown University',
     date: '2022 - 2023',
     publications: [
       {
