@@ -23,24 +23,32 @@ interface ResearchProject {
 const projects: ResearchProject[] = [
   {
     title: 'PiCME: Pipeline for Contrastive Modality Evaluation',
-    description: 'Developing a multi-modal contrastive learning framework for integrating health data in the MIMIC-IV dataset. Collaboration with [Michal Golovanevsky](https://michalg04.github.io).',
-    lab: '[Singh Lab](https://rsinghlab.org) at Brown University',
+    description: 'Developing a multi-modal contrastive learning framework for integrating health data in the MIMIC-IV dataset. Collaboration with <a href="https://michalg04.github.io" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Michal Golovanevsky</a>.',
+    lab: '<a href="https://rsinghlab.org" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Singh Lab</a> at Brown University',
     date: '2025',
+    publication: {
+      title: 'Coming Soon!',
+      url: '#'
+    },
     technologies: ['PyTorch', 'Transformers', 'Python', 'Deep Learning'],
     imageUrl: '/research/multimodal.png'
   },
   {
     title: 'SRO: Subspace Relaxation Operator for Protein Structure Prediction',
     description: 'Creating a trainable operator that uses solvent-specific forces to guide protein structure prediction towards favorable configurations.',
-    lab: 'with [Colin Baker](cdbaker7.github.io) and [Sorin Istrail](https://istrail-lab.github.io)',
+    lab: 'with <a href="https://cdbaker7.github.io" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Colin Baker</a> and <a href="https://istrail-lab.github.io" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Sorin Istrail</a>',
     date: '2025',
+    publication: {
+      title: 'Coming Soon!',
+      url: '#'
+    },
     technologies: ['PyTorch', 'AlphaFold', 'OpenMM'],
     imageUrl: '/research/alphafold.png'
   },
   {
     title: 'BindCompare',
     description: 'BindCompare is a novel integrated protein–nucleic acid binding analysis platform. It is a user-friendly tool that can be run locally to predict new combinatorial relationships between TFs and RBPs.',
-    lab: '[Larschan Lab](https://larschanlab.com) at Brown University',
+    lab: '<a href="https://larschanlab.com" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Larschan Lab</a> at Brown University',
     date: '2024',
     publication: {
       title: 'Read the Paper!',
@@ -60,7 +68,7 @@ const projects: ResearchProject[] = [
   {
     title: 'Wet Lab Research',
     description: 'Collaborated on multiple projects investigating genome-wide sex-specific splicing during early Drosophila embryogenesis and the role of dual DNA/RNA-binding factors in regulating hnRNP splicing condensates. Combined wet lab experiments with computational analysis to reveal insights into developmental biology and splicing regulation.',
-    lab: '[Larschan Lab](https://larschanlab.com) at Brown University',
+    lab: '<a href="https://larschanlab.com" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Larschan Lab</a> at Brown University',
     date: '2022 - 2023',
     publications: [
       {
@@ -79,6 +87,8 @@ const projects: ResearchProject[] = [
 
 const ResearchCard = ({ project, index }: { project: ResearchProject; index: number }) => {
   const bgColor = index % 2 === 0 ? 'bg-indigo-600/10' : 'bg-purple-600/10';
+  
+
   
   return (
     <motion.div
@@ -99,8 +109,8 @@ const ResearchCard = ({ project, index }: { project: ResearchProject; index: num
       <div className="p-6 flex-1 flex flex-col">
         <div className="flex-1">
           <h3 className="text-2xl font-bold text-foreground mb-2">{project.title}</h3>
-          <p className="text-foreground/70 text-sm mb-4">{project.lab}</p>
-          <p className="text-foreground/80 mb-4">{project.description}</p>
+          <p className="text-foreground/70 text-sm mb-4" dangerouslySetInnerHTML={{ __html: project.lab }}></p>
+          <p className="text-foreground/80 mb-4" dangerouslySetInnerHTML={{ __html: project.description }}></p>
         </div>
         <div className="flex flex-wrap gap-2 mb-4">
           {project.technologies.map((tech, techIndex) => (
