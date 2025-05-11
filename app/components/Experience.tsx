@@ -25,13 +25,6 @@ const experiences: ExperienceItem[] = [
     category: 'work',
     positions: [
       {
-        role: 'Software Engineer II',
-        date: 'Starting July 2025',
-        points: [
-          'Will be on the SWE-Genomics team, collaborating with ML/Wet Lab teams to build drug discovery infrastructure.'
-        ]
-      },
-      {
         role: 'Software Engineering Intern',
         date: 'May 2024 - Aug 2024',
         points: [

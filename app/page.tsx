@@ -83,6 +83,14 @@ export default function Home() {
               >
                 Experience
               </Link>
+              <Link
+                href="/PranavMahableshwarkarResume_2025.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-purple-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-800 transition-colors duration-300"
+              >
+                Resume
+              </Link>
             </div>
             <p className="mt-10 text-lg leading-8 text-foreground/80 text-center">
               Software, Computational Biology, Deep Learning
