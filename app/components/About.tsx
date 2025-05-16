@@ -67,14 +67,6 @@ export default function About() {
             <p>
               Feel free to reach out to me via email:{' '}
               <a 
-                href="mailto:pranav_mahableshwarkar@brown.edu" 
-                className="text-blue-500 hover:text-blue-700 underline"
-                rel="noopener noreferrer"
-              >
-                pranav_mahableshwarkar@brown.edu
-              </a>{' '}
-              or{' '}
-              <a 
                 href="mailto:pranavm2780@gmail.com" 
                 className="text-blue-500 hover:text-blue-700 underline"
                 rel="noopener noreferrer"
