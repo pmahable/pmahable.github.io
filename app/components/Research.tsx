@@ -27,8 +27,8 @@ const projects: ResearchProject[] = [
     lab: '<a href="https://rsinghlab.org" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Singh Lab</a> at Brown University',
     date: '2025',
     publication: {
-      title: 'Coming Soon!',
-      url: '#'
+      title: 'Read the Paper!',
+      url: 'https://arxiv.org/abs/2507.03165'
     },
     technologies: ['PyTorch', 'Transformers', 'Python', 'Deep Learning'],
     imageUrl: '/research/multimodal.png'
