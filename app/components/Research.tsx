@@ -46,6 +46,14 @@ const projects: ResearchProject[] = [
     imageUrl: '/research/alphafold.png'
   },
   {
+    title: 'BindGPS: Investigating 3D Chromatin Formation',
+    description: 'Designing a multiomic dataset with Micro-C, ChIP-seq, and sequence data for analysis using GNNs and LLMs." target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Michal Golovanevsky</a>.',
+    lab: '<a href="https://larschanlab.com" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Singh Lab</a> at Brown University',
+    date: '2025-2026',
+    technologies: ['PyTorch', 'GNNs', 'LoRA/LLMs', 'Multi-Omics/NGS'],
+    imageUrl: '/research/clamp.png'
+  },
+  {
     title: 'BindCompare',
     description: 'BindCompare is a novel integrated protein–nucleic acid binding analysis platform. It is a user-friendly tool that can be run locally to predict new combinatorial relationships between TFs and RBPs.',
     lab: '<a href="https://larschanlab.com" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Larschan Lab</a> at Brown University',
