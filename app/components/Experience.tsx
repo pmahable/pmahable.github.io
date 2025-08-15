@@ -55,8 +55,16 @@ const experiences: ExperienceItem[] = [
     category: 'research',
     positions: [
       {
-        role: 'Deep Learning and Computational Biology Researcher',
-        date: 'Jan 2024 – Present',
+        role: 'ML and Computational Biology Researcher (Post-Bac)',
+        date: 'May 2025 - Present',
+        points: [
+          'Working on physics-driven protein folding and interpretable 3D genomics models.',
+          'Mentoring graduate and undergraduate students on deep learning applications to biology.'
+        ]
+      },
+      {
+        role: 'Undergraduate ML Researcher',
+        date: 'Jan 2024 – May 2025',
         points: [
           'Developing a multi-modal contrastive learning model capable of handling complex healthcare datasets and investigating mechanistic interpretability methods for DL models',
           'Developing course materials for a new HealthML course at Brown'
