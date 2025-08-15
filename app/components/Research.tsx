@@ -47,7 +47,7 @@ const projects: ResearchProject[] = [
   },
   {
     title: 'BindGPS: Investigating 3D Chromatin Formation',
-    description: 'Designing a multiomic dataset with Micro-C, ChIP-seq, and sequence data for analysis using GNNs and LLMs." target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Michal Golovanevsky</a>.',
+    description: 'Designing a multiomic dataset with Micro-C, ChIP-seq, and sequence data for analysis using GNNs and LLMs.',
     lab: '<a href="https://larschanlab.com" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-500 transition-colors duration-300">Larschan Lab</a> at Brown University',
     date: '2025-2026',
     technologies: ['PyTorch', 'GNNs', 'LoRA/LLMs', 'Multi-Omics/NGS'],
