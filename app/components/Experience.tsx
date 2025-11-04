@@ -70,7 +70,7 @@ const experiences: ExperienceItem[] = [
     positions: [
       {
         role: 'ML and Computational Biology Researcher (Post-Bac)',
-        date: 'May 2025 - Present',
+        date: 'May 2025 - Nov 2025',
         points: [
           'Working on physics-driven protein folding and interpretable 3D genomics models.',
           'Mentoring graduate and undergraduate students on deep learning applications to biology.'
@@ -93,7 +93,7 @@ const experiences: ExperienceItem[] = [
     positions: [
       {
         role: 'Computational Chemistry Researcher',
-        date: 'August 2024 – Present',
+        date: 'August 2024 – May 2025',
         points: [
           'Explored interpretability (related to free energy, kinetics, etc.) methods in existing protein folding methods',
           'Investigating how statistical and physical methods can be integrated into DL-based protein folding methods.'
@@ -130,7 +130,7 @@ const experiences: ExperienceItem[] = [
       },
       {
         role: 'Undergraduate Teaching Assistant',
-        date: 'Jun 2022 – Present',
+        date: 'Jun 2022 – May 2025',
         points: [
           'Undergraduate Courses: Computational Biology (CS1810), Fundamentals of Computer Systems (CS0300), Genetics (BIOL 0470)',
           'Graduate Courses: Advanced Algorithms in Medical Informatics (CS2840)',        ]
@@ -153,7 +153,7 @@ const experiences: ExperienceItem[] = [
     positions: [
       {
         role: 'Coordinator',
-        date: 'May 2023 – Present',
+        date: 'May 2023 – May 2025',
         points: [
           'Oversaw a team of 15 mentors, organizing outreach to Providence Public Schools and coordinated the launch of the BSP mentorship and high school visit/outreach programs'
         ]

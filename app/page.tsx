@@ -117,7 +117,7 @@ export default function Home() {
             />
             <InfoTile 
               title="About Me"
-              description="I am a current senior at Brown University! I love baking, swimming, and teaching in my free time. Click here for my contact info!"
+              description="I am currently on the ML team at Nabla Bio working on generative models for de novo antibody design! I love baking, swimming, and teaching in my free time. Click here for my contact info!"
               link="/about"
               bgColor="bg-indigo-600/20"
             />
