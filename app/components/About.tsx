@@ -61,7 +61,7 @@ export default function About() {
         >
           <div className="prose prose-lg text-foreground/80">
             <p>
-            I&apos;m a Computer Science and Applied Mathematics student at Brown University. I enjoy the intersection of computer science, biology, chemistry, and math. Particularly, my research interests lie in developing interpretable methods geared towards complex biological/healthcare datasets. Outside of research, I am very passionate in teaching and making computer science more accessible!
+            I&apos;m currently working on generative models for de novo antibody design at Nabla Bio! I enjoy the intersection of computer science, biology, chemistry, and math. Particularly, my research interests lie in developing interpretable methods geared towards complex biological/healthcare datasets. Outside of research, I am very passionate in teaching and making computer science more accessible!
             </p>
             <br />
             <p>

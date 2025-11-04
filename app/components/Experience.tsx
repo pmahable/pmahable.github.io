@@ -20,6 +20,20 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
+    company: 'Nabla Bio',
+    location: 'Cambridge, MA',
+    category: 'work',
+    positions: [
+      {
+        role: 'Applied AI Scientist I',
+        date: 'Nov 2025 - Present',
+        points: [
+          'Working on generative models for customizable de novo drug design.'
+        ]
+      }
+    ]
+  },
+  {
     company: 'insitro',
     location: 'South San Francisco, CA',
     category: 'work',
