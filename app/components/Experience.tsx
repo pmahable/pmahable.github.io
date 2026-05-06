@@ -25,8 +25,15 @@ const experiences: ExperienceItem[] = [
     category: 'work',
     positions: [
       {
+        role: 'Applied AI Scientist II',
+        date: 'Apr 2026 - Present',
+        points: [
+          'Leading efforts to build models with a wet-lab feedback loop.'
+        ]
+      },
+      {
         role: 'Applied AI Scientist I',
-        date: 'Nov 2025 - Present',
+        date: 'Nov 2025 - Apr 2026',
         points: [
           'Working on generative models for customizable de novo drug design.'
         ]
